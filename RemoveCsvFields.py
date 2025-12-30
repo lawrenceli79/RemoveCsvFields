@@ -8,7 +8,7 @@ import configparser
 if (len(sys.argv)<=2):
     str = ("Read .csv and remove specified field \n"
             "Usage:\n"
-            "   py {} [InCsv] [OutCsv]\n"
+            "   py {} [InFolder] [OutFolder]\n"
             .format(os.path.basename(__file__))
     )
     print(str)
